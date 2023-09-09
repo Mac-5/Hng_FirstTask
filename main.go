@@ -59,8 +59,8 @@ func main() {
 			Current_day: currentDay(),
 			Utc_time: vaildUtcTime(),
 			Track: track,
-			Github_file_url: "",
-			Github_repo_url: "",
+			Github_file_url: "https://github.com/Mac-5/Hng_FirstTask/blob/main/main.go",
+			Github_repo_url: "https://github.com/Mac-5/Hng_FirstTask",
 			Status_code: http.StatusOK,
 
 		}
