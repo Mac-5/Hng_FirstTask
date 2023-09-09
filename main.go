@@ -40,7 +40,7 @@ func vaildUtcTime()(string){
 	upMark := currentTime.Add(window)
 
 	if (currentTime.After(lowMark) && currentTime.Before(upMark)){
-		formattedTime := currentTime.Format("2006-01-02T15:04-07:00Z")
+		formattedTime := currentTime.Format("2006-01-02T15:04:05Z")
 		return formattedTime
 	}else{
 		return ""
