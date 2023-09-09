@@ -13,7 +13,7 @@ import (
 type Response struct{
 	Slack_name string `json:"slack_name"`
 	Current_day string `json:"current_day"`
-	Utc_time string 	`utc_time:"utc_time"`
+	Utc_time string 	`json:"utc_time"`
 	Track string 	`json:"track"`
 	Github_file_url string `json:"github_file_url"`
 	Github_repo_url string 	`json:"github_repo_url"`
