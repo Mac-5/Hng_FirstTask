@@ -65,7 +65,6 @@ func main() {
 
 		}
 		
-		// param2 := r.URL.Query().Get("param2")
 
 		json, err := json.Marshal(data)
 		if err != nil{
